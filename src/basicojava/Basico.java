@@ -50,6 +50,7 @@ public class Basico {
 		double num3 = 50;
 		float num4 = 2;
 		
+		System.out.println();
 		System.out.println(num1 + num2);
 		System.out.println();
 		System.out.println(num3 + num1);
@@ -58,6 +59,11 @@ public class Basico {
 		System.out.println();
 		System.out.println(num3 * num4);
 		
+		// expressoes matematicas 
+		
+		System.out.println(num1 + (num1 * num4 +(num2 / num4))- num3); // essa expressao tem que da 15 
+		
+		
 		
 		
 		
@@ -65,4 +71,5 @@ public class Basico {
 
 	}
 
+	
 }
